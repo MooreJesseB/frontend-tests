@@ -24,6 +24,7 @@ These tests will be used most importantly to evaluate skill set and the type of 
 4. Consider modularity.
 
 5. Use any code library or framework you like except:
+
 * Jquery
 * Framer and other design prototyping tools
 
@@ -36,10 +37,12 @@ These tests will be used most importantly to evaluate skill set and the type of 
 3. Do not use any front end libraries or frameworks for any of the tasks except when explicitly noted.
 
 4. Make the puzzle work with the same interaction model as the original puzzle had.
+
 * The application logic cannot be in global scope.
 * Write comments throughout your application structure and logic. The degree of commenting that you do is up to you, but more importantly we want to be able to "read through" your thought process.
 
 5. Style the puzzle to look *exactly* like the screenshot: `puzzle/example.png`.
+
 * Any valid CSS is permitted.
 * Across browsers, the puzzle should look the same or *very* close to the same.
 * The mobile screenshot demonstrates the initial scale of the page.
