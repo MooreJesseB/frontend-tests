@@ -1,8 +1,8 @@
 import Component from '@ember/component';
-import Array from '@ember';
+import { A } from '@ember/array';
 
 export default Component.extend({
-    screens: Array([
+    screens: A([
         {
             title: 'Gradients',
             description: 'Start, end, angle',
