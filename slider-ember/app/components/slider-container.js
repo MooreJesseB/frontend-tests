@@ -9,7 +9,7 @@ export default Component.extend({
             colorLeft: '#833CF6',
             colorRight: '#78E6ED',
             index: '1',
-            icon: ''
+            icon: '/assets/images/water_drop.png'
         },
         {
             title: 'Presets',
@@ -17,7 +17,7 @@ export default Component.extend({
             colorLeft: '#78E6ED',
             colorRight: '#F5F56A',
             index: '2',
-            icon: ''
+            icon: '/assets/images/paint-palette.svg'
         },
         {
             title: 'Colors',
@@ -25,7 +25,7 @@ export default Component.extend({
             colorLeft: '#F5F56A',
             colorRight: '#E04487',
             index: '2',
-            icon: ''
+            icon: '/assets/images/eyedropper.png'
         },
     ]),
 });
