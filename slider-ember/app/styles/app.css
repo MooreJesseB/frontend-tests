@@ -20,7 +20,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .5s ease-out;
+    transition: transform .3s;
+    transition-timing-function: cubic-bezier(0, 0, 0.55, 1);
 }
 
 .index-icon {
@@ -46,7 +47,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .5s ease-out;
+    transition: transform .3s;
+    transition-timing-function: cubic-bezier(0.2, 0, 0.58, 1);
 }
 
 .title {
@@ -64,7 +66,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .5s ease-out;
+    transition: transform .3s;
+    transition-timing-function: cubic-bezier(0.35, 0, .68, 1);
 }
 
 .description {
@@ -87,7 +90,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .5s ease-out;
+    transition: transform .25s;
+    transition-timing-function: cubic-bezier(0, 0, 0.4, 1);
 }
 
 .gradient-icon {
@@ -122,20 +126,26 @@
     position: absolute;
     margin: 0 auto;
     top: 90%;
-    height: 30px;
-    width: 30px;
-    background-color: black;
+    height: 0px;
+    width: 0px;
     display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid grey;
+    cursor: pointer;
 }
 
 .nav-next {
     position: absolute;
     top: 90%;
     left: 90%;
-    height: 30px;
-    width: 30px;
-    background-color: black;
+    height: 0px;
+    width: 0px;
     display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid grey;
+    cursor: pointer;
 }
 
 .inline-block {

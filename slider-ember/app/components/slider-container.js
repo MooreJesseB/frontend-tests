@@ -5,7 +5,7 @@ import { A } from '@ember/array';
 export default Component.extend({
     currentIndex: 1,
     currentOffset: 0,
-    transitionStyle: '',
+    transitionStyle: htmlSafe(''),
     screens: A([
         {
             title: 'Gradients',
@@ -47,8 +47,6 @@ export default Component.extend({
                 this.set('currentOffset', currentOffset + 300);
                 this.set('currentIndex', currentIndex - 1);
             }
-
-            
         }
     }
 });
