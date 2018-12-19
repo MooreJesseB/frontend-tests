@@ -1,5 +1,29 @@
 <div class="container">
-    {{#each screens as |screen|}}
-        {{slideshow-screen screen=screen class="screen"}}
-    {{/each}}
+    <div class="index-track" style={{transitionStyle}}>
+        {{#each screens as |screen|}}
+            {{index-icon screen=screen class="index-icon"}}
+        {{/each}}
+    </div>
+    <div class="title-track" style={{transitionStyle}}>
+        {{#each screens as |screen|}}
+            {{title-text screen=screen class="title-text"}}
+        {{/each}}
+    </div>
+    <div class="description-track" style={{transitionStyle}}>
+        {{#each screens as |screen|}}
+            {{description-text screen=screen class="description-text"}}
+        {{/each}}
+    </div>
+    <div class="gradient-container">
+        <div class="gradient-track" style={{transitionStyle}}>
+            {{#each screens as |screen|}}
+                {{gradient-icon screen=screen class="gradient-icon"}}
+            {{/each}}
+        </div>
+    </div>
 </div>
+<div class="navs">
+    <div class="nav-back" {{action "transition" false}}></div>
+    <div class="nav-next" {{action "transition" true}}></div>
+</div>
+
