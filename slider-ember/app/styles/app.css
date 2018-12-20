@@ -20,8 +20,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .3s;
-    transition-timing-function: cubic-bezier(0, 0, 0.55, 1);
+    transition: transform .31s;
+    transition-timing-function: cubic-bezier(0.2, 0.3, 0.55, 1);
 }
 
 .index-icon {
@@ -47,8 +47,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .3s;
-    transition-timing-function: cubic-bezier(0.2, 0, 0.58, 1);
+    transition: transform .33s;
+    transition-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
 }
 
 .title {
@@ -66,8 +66,8 @@
     width: 900px;
     overflow-x: hidden;
     display: block;
-    transition: transform .3s;
-    transition-timing-function: cubic-bezier(0.35, 0, .68, 1);
+    transition: transform .35s;
+    transition-timing-function: cubic-bezier(0.5, 0.7, .8, 1);
 }
 
 .description {
